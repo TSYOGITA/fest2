@@ -125,4 +125,15 @@
 #map{
     text-align: center;
   }
+.btn{
+background-color: cornflowerblue;
+color: darkgreen;
+height: 35px;
+width: 50px;
+justify-content: center;
+}
+.btn:hover{
+  background-color: darksalmon;
+}
+
    
