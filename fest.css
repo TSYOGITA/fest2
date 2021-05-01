@@ -103,6 +103,7 @@
   .column {
     flex: 33.33%;
     padding: 5px;
+    margin: 100px;  
   }
   #contact::before {
     content: "";
