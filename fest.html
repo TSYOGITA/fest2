@@ -9,6 +9,56 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"></link>     
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"></link>
+<style>
+  footer{
+  background-color: black;
+  height: auto;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 20px;
+  color: white;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  margin: 0 10px;
+}
+.socials a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.socials a i{
+  font-size: 1.1rem;
+}
+.socials a:hover{
+  color: aqua;
+}
+.footer-bottom{
+  background-color: black;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+</style>
   </head>
   <body>
     <nav id="navbar">
@@ -183,6 +233,20 @@
     </section>
     <br>
     <hr>
+    <footer>
+      <div class="footer-content">
+        <h3>IIT (ISM) DHANBAD</h3>
+        <ul class="socials">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>copyright &copy;2020 codeOpacity. Designed by <span>CODE_FELLAS</span></p>
+      </div>
+    </footer>
   </body>
   <link rel="stylesheet" href="fest.css" />
 </html>
